@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Appointment } from 'src/appointment/appointment.model';
+import { Appointment } from 'appointment/appointment.model';
 
 export interface AppointmentInput {
     patientId: number;

@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Patient } from 'src/patient/patient.model';
+import { Patient } from 'patient/patient.model';
 
 export interface PatientInput {
     name: string;
